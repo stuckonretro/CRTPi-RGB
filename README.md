@@ -10,7 +10,7 @@ Thank you very much to Mike V, Sakitoshi, Mike Chi, the guys at Arcadeforge, Art
 
 **User Photo Galleries (Photos from Historical Versions):**
 
-* VGA: https://photos.google.com/share/AF1QipNO6y2Vjt0jFrwY0kYbgsD-R2-KjNFuaDqKrFZQsCebWi6O1nZAF4ozajdksLw7KQ?key=WGVHbWMxLXd2ZlFqbFhGZ3BLRjZTSE42S1FNVFdB
+* RGB: https://photos.google.com/share/AF1QipNjCNQs45Gza9YDe-WWCmIQZWPUEbVvt8PoIdKRNrBiEPedw-yl6r5g8jKpWkfJWA?key=QWtsS3FBWWo0aHU5M1hlRDVvU3JxQVNsSVoxSVdB
 
 **Required Hardware:**
 

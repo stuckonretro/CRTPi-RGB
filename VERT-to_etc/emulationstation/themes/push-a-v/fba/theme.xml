@@ -1,0 +1,126 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../pixel.xml</include>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0.0 0.0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<color>004688</color>
+			<path>./../art/systemback.png</path>
+		</image>
+		
+		<image name="console_overlay" extra="true">
+			<tile>false</tile>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.7 0.7</maxSize>
+			<path>./console-arcade-fba.png</path>
+		</image>
+		<!--
+		<text>
+			<pos>0.5 0.5</pos>
+			<value>ARCADE</VALUE>
+		</text>
+		-->
+		<image name="logo">
+			<path>./logo.png</path>
+        </image>
+		
+		<helpsystem name="help">
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+		</helpsystem>
+		
+	</view>
+
+	<view name="basic, detailed">
+	</view>
+
+	<view name="basic">
+
+		<image name="logo">
+			<path>./logo.png</path>
+			<pos>0.32 0.103</pos>
+			<maxSize>0.315 0.126</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<color>004688</color>
+			<path>./../art/systemback.png</path>
+		</image>
+
+		<image name="Border Overlay" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./../art/border3fbav.png</path>
+		</image>		
+	
+		<textlist name="gamelist">
+			<pos>0.11 0.235</pos>
+			<size>0.8 0.647</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<!-- <fontSize>0.025</fontSize> -->
+			<selectorColor>00142680</selectorColor>
+			<selectedColor>ffce08</selectedColor>
+			<primaryColor>E5E5E5</primaryColor>
+			<secondaryColor>e3e3e3</secondaryColor>
+			<forceUppercase>1</forceUppercase>
+		</textlist>
+		
+	</view>
+
+	<view name="detailed">
+		<!--
+		<image name="logo">
+			<path>./logo3.png</path>
+			<pos>0.78 0.12</pos>
+			<maxSize>0.33333 0.115</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		-->
+
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<color>004688</color>
+			<path>./../art/background.png</path>
+		</image>
+
+		<image name="Border Overlay" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./../art/border3fbav.png</path>
+		</image>		
+	
+		<textlist name="gamelist">
+			<pos>0.11 0.18</pos>
+			<size>0.46 0.80</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.00</horizontalMargin>
+			<!-- <fontSize>0.025</fontSize> -->
+			<selectorColor>001426</selectorColor>
+			<selectedColor>ffce08</selectedColor>
+			<primaryColor>E5E5E5</primaryColor>
+			<secondaryColor>e3e3e3</secondaryColor>
+			<forceUppercase>0</forceUppercase>
+		</textlist>
+		
+	</view>
+	
+</theme>

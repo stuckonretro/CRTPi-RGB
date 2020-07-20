@@ -1,0 +1,1 @@
+emulationstation --resolution 240 320 --screenrotate 3 #auto

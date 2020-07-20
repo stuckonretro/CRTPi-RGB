@@ -1,0 +1,153 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../pixel.xml</include>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0.0 0.0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<color>636363</color>
+			<path>./../art/systemback.png</path>
+		</image>
+		
+		<image name="console_overlay" extra="true">
+			<tile>false</tile>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.7 0.7</maxSize>
+			<path>./console.png</path>
+		</image>
+		
+		<image name="logo">
+			<path>./logo.png</path>
+        </image>
+		
+		<helpsystem name="help">
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+		</helpsystem>
+		
+	</view>
+
+	<view name="basic, detailed">
+	</view>
+
+	<view name="basic">
+
+		<image name="logo">
+			<path>./logo.png</path>
+			<pos>0.32 0.103</pos>
+			<maxSize>0.315 0.126</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<color>636363</color>
+			<path>./../art/systemback.png</path>
+		</image>
+
+		<image name="Border Overlay" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./../art/border3v.png</path>
+		</image>		
+	
+		<textlist name="gamelist">
+			<pos>0.15 0.235</pos>
+			<size>0.733 0.647</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./../art/04B_03__.TTF</fontPath>
+			<fontSize>0.035</fontSize>
+			<selectorColor>1c1c1c80</selectorColor>
+			<selectedColor>ffd800</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>e3e3e3</secondaryColor>
+			<forceUppercase>1</forceUppercase>
+		</textlist>
+		
+	</view>
+
+	<view name="detailed">
+	
+		<image name="logo">
+			<path>./logo.png</path>
+			<pos>0.30 0.154</pos>
+			<maxSize>0.418 0.115</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<color>636363</color>
+			<path>./../art/background.png</path>
+		</image>
+
+		<image name="Border Overlay" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./../art/border3v.png</path>
+		</image>		
+	
+		<textlist name="gamelist">
+			<pos>0.11 0.266</pos>
+			<size>0.483 0.611</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./../art/04B_03__.TTF</fontPath>
+			<fontSize>0.025</fontSize>
+			<selectorColor>1c1c1c</selectorColor>
+			<selectedColor>dc442c</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>e3e3e3</secondaryColor>
+			<forceUppercase>0</forceUppercase>
+		</textlist>
+		
+		
+		
+		<text name="md_description">
+			<forceUppercase>0</forceUppercase>
+			<pos>0.602 0.55</pos>
+			<size>0.331 0.362</size>
+			<color>cccccc</color>
+			<fontPath>./../art/04B_03__.TTF</fontPath>
+			<fontSize>0.025</fontSize>
+			<alignment>center</alignment>
+		</text>
+		
+		<text name="md_image, md_players, md_developer, md_publisher, md_genre, md_playcount, md_lbl_players">
+			<pos>1 1</pos>
+		</text>
+		
+		<datetime name="md_releasedate, md_lastplayed">
+			<pos>1 1</pos>
+		</datetime>
+		
+		<rating name="md_rating">
+			<pos>1 1</pos>
+		</rating>
+		
+		<image name="md_image">
+			<pos>0.78 0.35</pos>
+			<maxSize>0.300 0.300</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+	</view>
+	
+</theme>

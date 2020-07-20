@@ -1,0 +1,184 @@
+<!--
+theme name:		push-a
+copy, change & spread it 
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<view name="system">
+		
+		<helpsystem name="help">
+			<pos>0.012 1.960</pos>
+			<textColor>ffc000</textColor>
+			<iconColor>ffc000</iconColor>
+			<fontPath>./art/04B_03__.TTF</fontPath>
+			<fontSize>0.025</fontSize>
+		</helpsystem>
+
+	</view>
+
+    <view name="basic">
+
+		<helpsystem name="help">
+			<pos>0.012 1.960</pos>
+			<textColor>ffc000</textColor>
+			<iconColor>ffc000</iconColor>
+			<fontPath>./art/font.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+		</helpsystem>
+		
+		<text name="md_lbl_playcount">
+			<pos>0.676 0.580</pos>
+			<fontSize>0.025</fontSize>
+		</text>
+		
+		<text name="md_playcount">
+			<pos>0.829 0.574</pos>
+			<fontSize>0.025</fontSize>
+		</text>
+		
+		<textlist name="gamelist">
+			<pos>0.034 0.235</pos>
+			<size>0.933 0.647</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./art/04B_03__.TTF</fontPath>
+			<fontSize>0.025</fontSize>
+			<selectorColor>350648</selectorColor>
+			<selectedColor>bc14ff</selectedColor>
+			<primaryColor>cccccc</primaryColor>
+			<secondaryColor>871F78</secondaryColor>
+			<forceUppercase>1</forceUppercase>
+			<!--<scrollSound>./art/flipper.wav</scrollSound>-->
+		</textlist>
+
+	</view>
+
+	<view name="detailed">
+	    <helpsystem name="help">
+			<pos>0.012 1.960</pos>
+			<textColor>ffc000</textColor>
+			<iconColor>ffc000</iconColor>
+			<fontPath>./art/04B_03__.TTF</fontPath>
+			<fontSize>0.025</fontSize>
+		</helpsystem>
+
+		<image name="logo">
+			<pos>0.274 0.114</pos>
+			<maxSize>0.418 0.115</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+
+		<image name="Border Overlay" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>		
+	
+		<image name="md_image">
+			<pos>0.77 0.47</pos>
+			<maxSize>0.28 82 0.3</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<textlist name="gamelist">
+			<pos>0.033 0.25</pos>
+			<size>0.49 0.59</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./art/04B_03__.TTF</fontPath>
+			<fontSize>0.025</fontSize>
+			<selectorColor>350648</selectorColor>
+			<selectedColor>bc14ff</selectedColor>
+			<primaryColor>52b152</primaryColor>
+			<secondaryColor>871F78</secondaryColor>
+			<forceUppercase>0</forceUppercase>
+			<!--<scrollSound>./art/flipper.wav</scrollSound>-->
+		</textlist>
+		
+<!--         Start Meta Data                  -->	
+		<text name="md_lbl_releasedate, md_lbl_players, md_players, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_genre, md_genre, md_lbl_players, md_players, md_lbl_playcount, md_playcount, md_lbl_lastplayed, md_description">
+			<pos>1 1</pos>
+			<size>0.192 0.030</size>
+			<color>cccccc</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/04B_03__.TTF</fontPath>
+			<fontSize>0.025</fontSize>
+		</text>
+	
+
+		<datetime name="md_releasedate">
+			<color>ffffff</color>
+			<pos>0.61 0.750</pos>
+			<color>cccccc</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/04B_03__.TTF</fontPath>
+			<fontSize>0.025</fontSize>
+		</datetime>
+		
+		<text name="md_developer">
+			<pos>0.61 0.809</pos>
+			<forceUppercase>1</forceUppercase>
+		</text>
+		
+		<text name="md_genre">
+			<pos>0.61 0.853</pos>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<pos>1 1</pos>
+			<color>cccccc</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./art/04B_03__.TTF</fontPath>
+			<fontSize>0.025</fontSize>
+		</datetime>
+		
+		<text name="md_lbl_players">
+			<pos>0.61 0.9</pos>
+		</text>
+
+		<text name="md_players">
+			<pos>0.76 0.9</pos>
+		</text>
+		
+		<text name="md_publisher">
+			<pos>0.61 0.808</pos>
+		</text>
+		<!--
+		<rating name="md_rating">
+			<pos>0.82 0.853</pos>
+			<size>0.192 0.030</size>
+			<filledPath>./art/star_filled.svg</filledPath>
+			<unfilledPath>./art/star_empty.svg</unfilledPath>
+		</rating>
+		-->
+		
+		<text name="md_playcount">
+			<pos>1 1</pos>
+		</text>	
+		
+		<!--
+		<text name="md_description">
+			<pos>0.567 0.663</pos>
+			<size>0.400 0.209</size>
+		</text> 
+		-->
+
+	</view>	
+
+	<view name="basic, detailed">
+
+
+	</view>	
+
+
+	</theme>
